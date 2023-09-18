@@ -22,7 +22,7 @@ jobs:
 
       - name: Build and push
         id: docker_build
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v2
         with:
-          push: true
-          tags: miguelviannafeiteira/fullcycle-ci-go:latest
+          push: false
+          tags: miguelviannafeiteira/fc2.0-ci-go:latest
