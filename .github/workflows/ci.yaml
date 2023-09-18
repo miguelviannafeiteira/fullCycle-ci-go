@@ -24,4 +24,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: miguelviannafeiteira/fullCycle-ci-go:latest
+          tags: miguelviannafeiteira/fullcycle-ci-go:latest
